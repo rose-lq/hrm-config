@@ -11,3 +11,8 @@ hrm:
   swagger:
     title: 课程管理
     description: 课程管理接口文档
+#开启hystrix
+
+feign:
+  hystrix:
+    enabled: true
