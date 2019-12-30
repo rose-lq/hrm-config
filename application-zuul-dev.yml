@@ -9,6 +9,9 @@ zuul:
     course:
       path: /course/**
       service-id: COURSE-SERVICE
+    file:
+      path: /file/**
+      service-id: FILEUPLOAD-SERVICE
   ignored-services: "*"
   prefix: /services
 
