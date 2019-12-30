@@ -1,0 +1,18 @@
+server:
+  port: 9004
+
+spring:
+  application:
+    name: FILEUPLOAD-SERVICE
+  datasource:
+    url: jdbc:mysql:///hrm-course?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
+
+hrm:
+  swagger:
+    title: 文件上传
+    description: 文件上传接口文档
+#开启hystrix
+
+feign:
+  hystrix:
+    enabled: true
