@@ -1,0 +1,9 @@
+server:
+  port: 9006
+
+
+spring:
+  application:
+    name: PAGE-SERVICE
+  datasource:
+    url: jdbc:mysql:///hrm-page?serverTimezone=UTC&useSSL=false&useUnicode=true&characterEncoding=utf8
