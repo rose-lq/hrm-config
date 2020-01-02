@@ -12,6 +12,9 @@ zuul:
     file:
       path: /file/**
       service-id: FILEUPLOAD-SERVICE
+    page:
+      path: /page/**
+      service-id: PAGE-SERVICE
   ignored-services: "*"
   prefix: /services
 
