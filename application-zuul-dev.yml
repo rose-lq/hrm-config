@@ -15,6 +15,9 @@ zuul:
     page:
       path: /page/**
       service-id: PAGE-SERVICE
+    user:
+      path: /user/**
+      service-id: USER-SERVICE
   ignored-services: "*"
   prefix: /services
 
